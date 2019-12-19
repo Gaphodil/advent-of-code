@@ -1,6 +1,7 @@
 # 'f'               - reading from "input.txt"
 # 'r' (or not 'f')  - reading from raw input
 input_mode = 'r'
+relative_base = 0
 
 def output_func(arg):
     # insert code here!
