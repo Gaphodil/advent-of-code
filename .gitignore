@@ -1,3 +1,7 @@
+*
+!/**/
+!*.*
+
 # Prerequisites
 *.d
 
@@ -35,3 +39,4 @@
 
 # Input files
 *.txt
+_template*
