@@ -12,3 +12,8 @@ macro_rules! split_lines {
         $input.split("\r\n")
     };
 }
+
+// assume well-formed input
+pub fn parse_to_dec(s: &str) -> i32 {
+    s.parse::<i32>().unwrap()
+}
