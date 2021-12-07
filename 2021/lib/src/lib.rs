@@ -17,3 +17,7 @@ macro_rules! split_lines {
 pub fn parse_to_dec(s: &str) -> i32 {
     s.parse::<i32>().unwrap()
 }
+
+pub fn commas_to_ints(inp: &str) -> Vec<i32> {
+    inp.split(',').map(parse_to_dec).collect()
+}
